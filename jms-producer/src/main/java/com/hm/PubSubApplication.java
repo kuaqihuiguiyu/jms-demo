@@ -58,6 +58,7 @@ public class PubSubApplication {
 
     /**
      * 本地事务
+     *
      * @return
      */
     @Bean
@@ -67,6 +68,6 @@ public class PubSubApplication {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(PtpApplication.class, args);
+        SpringApplication.run(PubSubApplication.class, args);
     }
 }
