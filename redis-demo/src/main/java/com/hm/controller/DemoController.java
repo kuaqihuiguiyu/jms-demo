@@ -18,8 +18,8 @@ public class DemoController {
     @RequestMapping("/test")
     @ResponseBody
     public String putCache() {
-        demoService.findUser(1l, "wang", "yunfei");
-        demoService.findAddress(1l, "anhui", "hefei");
+        demoService.cacheUser(1l, "wang", "yunfei");
+        demoService.cacheAddress(1l, "anhui", "hefei");
         System.out.println("这里调用,进行缓存");
         return "ok";
     }
@@ -27,8 +27,8 @@ public class DemoController {
     @RequestMapping("/test2")
     @ResponseBody
     public String testCache() {
-        User user = demoService.findUser(1l, "wang", "yunfei");
-        Address address = demoService.findAddress(1l, "anhui", "hefei");
+        User user = demoService.cacheUser(1l, "wang", "yunfei");
+        Address address = demoService.cacheAddress(1l, "anhui", "hefei");
         System.out.println("这里从缓存中取数据");
         System.out.println("user:" + "/" + user.getFirstName() + "/" + user.getLastName());
         System.out.println("address:" + "/" + address.getProvince() + "/" + address.getCity());
