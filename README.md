@@ -2,6 +2,8 @@
 SpringBoot整合activemq
 ### jms-receive-message
 整合activemq模块中的用户端,用来接收消息
+### redis-demo
+SpringBoot整合redis
 
 
 
