@@ -17,3 +17,5 @@ SpringBoot整合actuator
 [转:Spring Session加Redis](http://intheworld.win/2017/06/10/spring-session%E5%8A%A0redis/)
 
 [转:Spring Boot整合Actuator](http://www.cnblogs.com/yjmyzz/p/spring-boot-actuator-tutorial.html)
+
+[转:SpringBoot之旅 -- SpringBoot 项目健康检查与监控](http://www.cnblogs.com/javanoob/p/springboot_healthcheck.html)
