@@ -4,7 +4,8 @@ SpringBoot整合activemq
 整合activemq模块中的用户端,用来接收消息
 ### redis-demo
 SpringBoot整合redis
-
+### actuator-demo
+SpringBoot整合actuator
 
 
 ### 参考文档
@@ -14,3 +15,5 @@ SpringBoot整合redis
 [转:Spring Boot使用redis做数据缓存](http://www.cnblogs.com/softidea/p/5801499.html)
 
 [转:Spring Session加Redis](http://intheworld.win/2017/06/10/spring-session%E5%8A%A0redis/)
+
+[转:Spring Boot整合Actuator](http://www.cnblogs.com/yjmyzz/p/spring-boot-actuator-tutorial.html)
